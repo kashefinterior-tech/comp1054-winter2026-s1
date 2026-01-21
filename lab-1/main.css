@@ -1,1 +1,22 @@
 @charset "UTF-8";
+body{
+
+}
+
+h2 {
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h4 {
+ font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+    
+}
