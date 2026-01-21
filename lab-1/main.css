@@ -13,7 +13,7 @@ body{
 
 }
 header{
-    line-height: 2%;
+    /* line-height: 1px; */
 }
 header h1{
    
@@ -48,6 +48,7 @@ h2 {
   font-weight:1px;
   text-transform: uppercase;
   padding-bottom: 0;
+  line-height:0.1em;
 }
 
 h4 {
