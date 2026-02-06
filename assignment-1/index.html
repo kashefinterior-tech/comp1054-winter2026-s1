@@ -1,12 +1,30 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!--
+    Assignment: The CSS Rockstar
+    Student: Melika Kashef
+    Song: "Young and Beautiful" — Lana Del Rey
+    Notes:
+    - This project uses HTML structure with no classes or IDs, as instructions.
+    - Lyrics are not reproduced in full to respect copyright, and audio is embedded via Spotify.
+  -->
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, intial-scale=1" />
-    <title>Young and Beautiful- Lana Del Ray</title>
-    <!-- Google Fonts
-       Fonts used: Playfair Display (headings), Merriweather (body)
-       Source: https://fonts.google.com/
+    <!--
+    Viewport meta tag reference (responsive design):
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Young and Beautiful — Lana Del Rey</title>
+
+    <!--
+    Font embedding service: Google Fonts
+    Fonts used:
+    - Playfair Display (headings)
+    - Merriweather (body text)
+    Source: https://fonts.google.com/
   -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,15 +33,20 @@
       rel="stylesheet"
     />
 
+    <!-- Main stylesheet contains normalization and typography -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
+
   <body>
+    <!-- title and artist -->
     <header>
       <h1>Young and Beautiful</h1>
-      <p>By Lana Del Ray</p>
+      <p>by Lana Del Rey</p>
     </header>
+
     <main>
       <article>
+        <!-- Personal paragraphs about the song -->
         <section>
           <h2>Why this song matters to me</h2>
           <p>
@@ -38,26 +61,24 @@
             the question of whether love remains when everything else fades.
           </p>
         </section>
+
+        <!-- full copyrighted lyrics -->
         <section>
           <h2>Listen</h2>
+
           <figure>
-            <iframe
-              style="border-radius: 12px"
-              src="https://open.spotify.com/embed/track/0fLwCeqSjUjHdpDrcQDYIn"
-              width="100%"
-              height="152"
-              frameborder="0"
-              allowfullscreen
-              allow="
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                fullscreen;
-                picture-in-picture;
-              "
-              loading="lazy"
-            >
-            </iframe>
+            <!--
+            Spotify embed
+          -->
+            <!--
+            The <iframe> element is a standard HTML element documented on MDN.
+            This specific embed code was generated using Spotify’s
+            “Share → Embed track” feature.
+            Source:
+            loper.spotify.com/documentation/embeds/
+         -->
+
+           <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/1D92WOHWUI2AGQCCdplcXL?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
             <figcaption>
               <small>
@@ -68,6 +89,8 @@
           </figure>
         </section>
       </article>
+
+      <!-- artist information -->
       <aside>
         <section>
           <h2>About the artist</h2>
@@ -84,16 +107,18 @@
         </section>
       </aside>
     </main>
+
+    <!-- references -->
     <footer>
       <p>
-        <small>Built by Melika Kashef</small>
+        <small> Built by Melika Kashef. </small>
+      </p>
+      <p>
+        <small>
+          Audio playback provided via Spotify embed. Fonts provided by
+          <a href="https://fonts.google.com/">Google Fonts</a>.
+        </small>
       </p>
     </footer>
-    <p>
-      <small>
-        Audio playback provided via Spotify embed. Fonts provided by
-        <a href="https://fonts.google.com/">Google Fonts</a>.
-      </small>
-    </p>
   </body>
 </html>
