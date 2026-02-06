@@ -102,5 +102,53 @@ article {
     grid-template-columns: 1fr;
   }
 }
+/* --- Text spacing --- */
+p {
+  margin: 0;
+  opacity: 0.92;
+}
 
+p + p {
+  margin-top: 0.85rem;
+}
+
+/* --- Spotify --- */
+figure {
+  margin: 0.75rem 0 0;
+  padding: 1rem;
+  border: 1px solid rgba(212, 177, 90, 0.35);
+  border-radius: 12px;
+}
+
+figcaption {
+  margin-top: 0.6rem;
+  opacity: 0.85;
+  font-size: 0.92rem;
+}
+
+/* --- Links --- */
+a {
+  color: #d4b15a;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(212, 177, 90, 0.35);
+}
+
+a:hover,
+a:focus {
+  color: #f3efe6;
+  border-bottom-color: #f3efe6;
+}
+
+
+footer {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+  padding: 1.5rem 0 2.5rem;
+  text-align: center;
+  opacity: 0.85;
+}
+
+footer p + p {
+  margin-top: 0.6rem;
+}
 
