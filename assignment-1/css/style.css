@@ -32,6 +32,20 @@ body {
   background: linear-gradient(180deg, #0a1324 0%, #0b0b0f 55%, #0a1324 100%);
 }
 
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(
+      600px 300px at 50% 0%,
+      rgba(212, 177, 90, 0.22),
+      transparent 60%
+    );
+}
+
+
 h1, h2 {
   font-family: "Playfair Display", Georgia, serif;
   margin: 0 0 0.6rem;
@@ -59,9 +73,14 @@ header::after {
   content: "";
   display: block;
   width: min(560px, 85%);
-  height: 1px;
+  height: 2px;
   margin: 1.5rem auto 0;
-  background: linear-gradient(90deg, transparent, #d4b15a, transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d4b15a,
+    transparent
+  );
 }
 
 /* --- Two columns --- */
