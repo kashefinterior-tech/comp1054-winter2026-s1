@@ -2,30 +2,31 @@
 <html lang="en">
   <head>
     <!--
-    Assignment: The CSS Rockstar
-    Student: Melika Kashef
-    Song: "Young and Beautiful" — Lana Del Rey
-    Notes:
-    - This project uses HTML structure with no classes or IDs, as instructions.
-    - Lyrics are not reproduced in full to respect copyright, and audio is embedded via Spotify.
-  -->
+      Assignment: The CSS Rockstar
+      Student: Melika Kashef
+      Song: "Young and Beautiful" — Lana Del Rey
+
+      Notes:
+      - This project uses HTML with no classes or IDs per instructions.
+      - Only a short lyrics excerpt is included to respect copyright.
+      - Audio is embedded via Spotify.
+    -->
 
     <meta charset="utf-8" />
-    <!--
-    Viewport meta tag reference (responsive design):
-    https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
-  -->
+    <!-- Viewport meta tag reference (responsive design):
+         https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
+    -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Young and Beautiful — Lana Del Rey</title>
 
     <!--
-    Font embedding service: Google Fonts
-    Fonts used:
-    - Playfair Display (headings)
-    - Merriweather (body text)
-    Source: https://fonts.google.com/
-  -->
+      Font embedding service: Google Fonts
+      Fonts used:
+      - Playfair Display (headings)
+      - Merriweather (body text)
+      Source: https://fonts.google.com/
+    -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,12 +34,12 @@
       rel="stylesheet"
     />
 
-    <!-- Main stylesheet contains normalization and typography -->
+    <!-- Main stylesheet contains normalization, layout, and typography -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
-    <!-- title and artist -->
+    <!-- Title and artist -->
     <header>
       <h1>Young and Beautiful</h1>
       <p>by Lana Del Rey</p>
@@ -46,7 +47,7 @@
 
     <main>
       <article>
-        <!-- Personal paragraphs about the song -->
+        <!-- Personal paragraph about the song -->
         <section>
           <h2>Why this song matters to me</h2>
           <p>
@@ -62,37 +63,42 @@
           </p>
         </section>
 
-        <!-- full copyrighted lyrics -->
+        <!-- Lyrics excerpt and Spotify embed -->
         <section>
-          <h2>Listen</h2>
+          <h2>Lyrics and listen</h2>
 
-          <figure>
-            <!--
-            Spotify embed
+          <blockquote>
+            <p>
+              Will you still love me when I’m no longer young and beautiful?<br />
+              Will you still love me when I got nothing but my aching soul?
+            </p>
+            <p>
+              <small>
+                Lyrics excerpt © the respective rights holders. Full lyrics:
+                <a
+                  href="https://www.azlyrics.com/lyrics/lanadelrey/youngandbeautiful.html"
+                  >source</a
+                >.
+              </small>
+            </p>
+          </blockquote>
+
+          <!--
+            The <iframe> element is standard HTML (documented on MDN).
+            This specific embed code was generated directly from Spotify using
+            the “Share -> Embed track/album” option.
+            Spotify embed documentation (general, not the song page):
+            https://developer.spotify.com/documentation/embeds/
           -->
-            <!--
-            The <iframe> element is a standard HTML element documented on MDN.
-            This specific embed code was generated using Spotify’s
-            “Share → Embed track” feature.
-            Source:
-            loper.spotify.com/documentation/embeds/
-         -->
-
+          <figure>
             <iframe
-              data-testid="embed-iframe"
               style="border-radius: 12px"
               src="https://open.spotify.com/embed/album/1D92WOHWUI2AGQCCdplcXL?utm_source=generator"
               width="100%"
               height="352"
               frameborder="0"
-              allowfullscreen=""
-              allow="
-                autoplay;
-                clipboard-write;
-                encrypted-media;
-                fullscreen;
-                picture-in-picture;
-              "
+              allowfullscreen
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
               loading="lazy"
             ></iframe>
 
@@ -106,7 +112,7 @@
         </section>
       </article>
 
-      <!-- artist information -->
+      <!-- Artist information -->
       <aside>
         <section>
           <h2>About the artist</h2>
@@ -124,10 +130,10 @@
       </aside>
     </main>
 
-    <!-- references -->
+    <!-- References and fine print -->
     <footer>
       <p>
-        <small> Built by Melika Kashef. </small>
+        <small>Built by Melika Kashef.</small>
       </p>
       <p>
         <small>
@@ -138,3 +144,4 @@
     </footer>
   </body>
 </html>
+
