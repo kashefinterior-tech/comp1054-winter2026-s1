@@ -159,6 +159,10 @@ figure {
   border: 1px solid rgba(212, 177, 90, 0.35);
   border-radius: 12px;
 }
+figure img {
+  border-radius: 12px;
+}
+
 
 figcaption {
   margin-top: 0.6rem;
