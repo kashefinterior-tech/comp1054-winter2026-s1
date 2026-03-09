@@ -77,8 +77,11 @@ main > aside:last-of-type{
 
 main > aside:last-of-type h2::before {
     content: " + ";
-    font-weight: bold;
-    color: #b41e25;
+    font-weight: 300;
+    font-size: 3.5rem;
+    margin-right: 0.5rem;
+    line-height: 0;
+    color: #4b4949;
     
 }
 
@@ -92,6 +95,10 @@ main > article:first-of-type{
 main > article:last-of-type {
   grid-column: 2;
   grid-row: 2;
+}
+
+main > article:last-of-type p:first-of-type::first-line {
+    font-weight: bold;
 }
 
 article img{
@@ -126,9 +133,14 @@ main > aside:last-of-type{
 }
 
 main > aside:last-of-type h2{
-    margin: 0 0 0.75rem;
-    line-height: 1.1;
-    font-size: 1.6rem;
+    display: flex;
+    color: #c9242b; 
+    font-size: 1.5rem;
+    font-weight: 200;
+    position: relative;
+    margin-top: 0;
+    align-items: center;
+    
 }
 
 main > aside:last-of-type p {
