@@ -67,6 +67,7 @@ main {
 main > aside:first-of-type{
     grid-column: auto;
     grid-row: auto;
+    font-size: 0.9rem;
 }
 
 main > aside:last-of-type{
@@ -138,6 +139,24 @@ main > aside:last-of-type h3 {
   margin: 0 0 0.35rem;
   font-size: 1rem;
 }
+main > article:first-of-type h2 {
+  font-size: 1.7rem;
+  color: #c9242b;
+}
+
+main > article:last-of-type h2 {
+  font-size: 2.4rem;
+  color: #111;
+}
+
+main > article + article {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+
+main > aside:first-of-type a {
+  font-weight: 700;
+}
 
 a {
     color: #292828;
@@ -172,4 +191,28 @@ footer em {
   font-style: normal;
   font-weight: 700;
   color: #000000;
+}
+
+article p,
+aside p,
+aside li {
+    font: size 0.98rem;
+    line-height: 1.6;
+}
+
+main > aside:last-of-type li{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+main > aside:last-of-type li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+time {
+  font-weight: 300;
+  color: #494343;
+}
+abbr {
+  text-decoration: none;
 }
