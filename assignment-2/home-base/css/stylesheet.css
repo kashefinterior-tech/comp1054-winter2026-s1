@@ -211,8 +211,28 @@ main > aside:last-of-type li:last-child {
 }
 time {
   font-weight: 300;
-  color: #494343;
+  color: #595555;
 }
 abbr {
   text-decoration: none;
+}
+
+article{
+    overflow: hidden;
+}
+article img{
+    border: 1px solid #ddd;
+    
+}
+
+main > article:first-of-type img{
+    max-height: 320px;
+    max-width: 200px;
+    object-fit: cover;
+    
+}
+main > article:last-of-type img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: cover;
 }
