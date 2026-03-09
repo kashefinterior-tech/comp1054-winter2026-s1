@@ -18,13 +18,14 @@ body{
 #container {
     max-width: 1100px;
     position: relative;
-    margin: 2rem auto;
+    margin: 4rem auto 2rem auto;
     background: rgb(248, 248, 248);
     border: 1px solid #d1cfcf;
-    padding: 0;
-    margin-top: 4rem;
-    margin-left: auto;
-    margin-right: auto;
+    /* padding: 0; */
+    /* margin-top: 4rem; */
+    padding-right: 2.5rem; 
+    padding-left: 0;
+    
 }
 
 header{
@@ -77,9 +78,22 @@ main {
 }
 
 main > aside:first-of-type{
-    grid-column: auto;
-    grid-row: auto;
-    font-size: 0.9rem;
+    grid-column: 1;
+    grid-row: 1;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: Arial, sans-serif;
+    max-width: 260px;
+    margin-top: 1rem;
+}
+
+main > aside:first-of-type p {
+    font-size: 1.1rem;        
+    line-height: 2;         
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-weight: 100;         
+    text-align: left;
 }
 
 main > aside:last-of-type{
@@ -181,8 +195,9 @@ main > aside:last-of-type h3 {
   font-size: 1rem;
 }
 main > article:first-of-type h2 {
-  font-size: 1.7rem;
+  font-size: 2.5rem;
   color: #c9242b;
+  margin-top: 3rem;
   margin-right: 300px;
 }
 
@@ -191,8 +206,13 @@ main > article:first-of-type h2 {
 } */
 
 main > article:last-of-type h2 {
-  font-size: 2.4rem;
-  color: #111;
+    font-size: 3.5rem;      
+    color: #1f1f1f;
+    font-weight: 200;
+    text-transform: lowercase; 
+    /* letter-spacing: -0.02em; */
+    margin-top: 0;
+    line-height: 0.9;
 }
 
 main > article + article {
@@ -201,7 +221,13 @@ main > article + article {
 }
 
 main > aside:first-of-type a {
-  font-weight: 700;
+    display: block;           
+    font-size: 1.8rem; 
+    line-height: 1.1;  
+    text-decoration: none;    
+    font-weight: 500;         
+    word-wrap: break-word;
+    color: #111;
 }
 
 a {
