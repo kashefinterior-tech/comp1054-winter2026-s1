@@ -2,10 +2,27 @@ html{
     box-sizing: border-box;
 }
 
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+
 body{
     margin: 0;
     background: #edecec;
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #262626;
     line-height: 1.5;
+}
+
+#container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    background: #fafafa;
+    padding: 1.5rem;
+}
+
+header{
+    margin-bottom: 2rem;
+    text-transform: uppercase;
 }
