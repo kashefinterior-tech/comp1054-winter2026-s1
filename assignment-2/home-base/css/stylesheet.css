@@ -9,7 +9,7 @@ html{
 
 body{
     margin: 0;
-    background: #edecec;
+    background: #fafafa;
     font-family: Arial, Helvetica, sans-serif;
     color: #262626;
     line-height: 1.5;
@@ -18,14 +18,36 @@ body{
 #container {
     max-width: 1100px;
     margin: 2rem auto;
-    background: #fafafa;
+    background: rgb(248, 248, 248);
     padding: 1.5rem;
     border: 1px solid;
 }
 
 header{
     margin-bottom: 2rem;
-    border-bottom: 1px solid #c1bfbf;
+    border-bottom: 1px solid rgb(193, 191, 191);
     padding-bottom: 1rem;
 
+}
+
+header h1{
+    margin: 0;
+    font-size: 4rem;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: lowercase;
+
+}
+
+header h1 em{
+    font-style: normal;
+    color: rgb(209, 55, 55);
+}
+
+header p{
+    margin: 0 0 0.5rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing:  0.08em;
+    color: rgb(51, 51, 51);
 }
