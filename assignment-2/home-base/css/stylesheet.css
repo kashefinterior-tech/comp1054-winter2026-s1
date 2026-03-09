@@ -17,10 +17,14 @@ body{
 
 #container {
     max-width: 1100px;
+    position: relative;
     margin: 2rem auto;
     background: rgb(248, 248, 248);
     border: 1px solid #d1cfcf;
     padding: 0;
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 header{
@@ -49,9 +53,13 @@ header h1 em{
 
 header p{
     order: -1;
-    margin: 1rem 0 0 1rem;
-    font-size: 0.9rem;
-    font-weight: bold;
+    position: absolute;
+    top: -2.5rem;
+    left: 0;
+    margin: 0;
+    /* margin: 1rem 0 0 1rem; */
+    font-size: 1.2rem;
+    font-weight: 400;
     text-transform: uppercase;
 }
 
@@ -153,9 +161,9 @@ main > aside:last-of-type ul {
   list-style: none;
 }
 
-main > aside:last-of-type li {
+/* main > aside:last-of-type li {
   margin-bottom: 1.5rem;
-}
+} */
 
 main > aside:last-of-type h3 {
   margin: 0 0 0.35rem;
@@ -172,7 +180,7 @@ main > article:last-of-type h2 {
 }
 
 main > article + article {
-  border-top: 1px solid #ccc;
+  /* border-top: 1px solid #ccc; */
   padding-top: 1.5rem;
 }
 
@@ -197,15 +205,19 @@ mark {
 }
 
 footer {
+    position: relative;
+    border-top: none;  
     margin-top: 2rem;
-    padding-top: 1rem;
     /* border-top: 1px solid  #bbb; */
 
 }
 
 footer p{
-  margin: 0;
-  font-size: 0.9rem;
+    position: absolute;
+    bottom: -3rem;    
+    left: 0;
+    font-size: 1rem;
+    font-weight: bold;
   color: #444;
 }
 
