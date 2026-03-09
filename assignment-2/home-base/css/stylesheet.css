@@ -134,3 +134,19 @@ main > aside:last-of-type h3 {
   margin: 0 0 0.35rem;
   font-size: 1rem;
 }
+
+a {
+    color: #292828;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+mark {
+    background: #ebe9e9;
+    padding: 0.1em 0.2em;
+}
