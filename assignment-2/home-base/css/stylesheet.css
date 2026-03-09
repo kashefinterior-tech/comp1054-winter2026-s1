@@ -105,6 +105,12 @@ main > article:first-of-type{
     grid-row: 1;
 }
 
+main > article:first-of-type::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 main > article:last-of-type {
   grid-column: 2;
   grid-row: 2;
@@ -177,7 +183,12 @@ main > aside:last-of-type h3 {
 main > article:first-of-type h2 {
   font-size: 1.7rem;
   color: #c9242b;
+  margin-right: 300px;
 }
+
+/* main > article:first-of-type p {
+    margin-right: 300px; 
+} */
 
 main > article:last-of-type h2 {
   font-size: 2.4rem;
@@ -273,17 +284,17 @@ article img{
     
 }
 
-main > article:first-of-type img{
+main > article:first-of-type img {
     position: absolute;
     top: 0;
     right: 0;
-    width: 280px;
+    width: 200px; 
     height: auto;
-    z-index: 10;
-    border: none;
     margin: 0;
-    
+    border: none;
+    z-index: 10;
 }
+
 main > article:last-of-type img {
   max-height: 100%;
   max-width: 100%;
