@@ -319,7 +319,7 @@ footer em {
 article p,
 aside p,
 aside li {
-    font: size 0.98rem;
+     font-size: 0.98rem;
     line-height: 1.6;
 }
 
