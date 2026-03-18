@@ -95,6 +95,25 @@ main .tab ul{
 	
 }
 
+.tab{
+	width: 550px;
+	margin: auto;
+}
+.tabs ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+.tab a {
+	padding: 8px 15px;
+	background: #656565;
+	border: 1px solid black;
+	text-decoration: none;
+	color: black;
+}
+/* 
 main .tab a:hover{
 	background:  #efeeee;
 }
@@ -109,9 +128,9 @@ main .tab a:hover{
 	padding: 18px 20px;
 	line-height: 1.45;
 	font-size: 16px;
-}
+} */
 
-.tab-panel.active-panel {
+/* .tab-panel.active-panel {
     display: block;
 }
 
@@ -182,4 +201,4 @@ button:hover {
     .tab-panel {
         border-radius: 0.5rem;
     }
-}
+} */
