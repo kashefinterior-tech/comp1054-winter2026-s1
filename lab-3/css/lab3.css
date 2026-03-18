@@ -156,11 +156,11 @@ button {
     transition: 0.2s ease;
 }
 
-ul li a:hover,
+/* ul li a:hover,
 nav ul li a:hover,
 button:hover {
     background: #e9e9e9;
-}
+} */
 
 
 
