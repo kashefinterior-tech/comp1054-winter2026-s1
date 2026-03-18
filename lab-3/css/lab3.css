@@ -127,6 +127,9 @@ main {		padding: 1em;
     padding: 15px;
     background: #efefef;
 }
+.tabs[role="tabpanel"].show{
+	display: block;
+}
 /* 
 main .tab a:hover{
 	background:  #efeeee;
@@ -165,8 +168,8 @@ nav ul {
     display: flex;
     gap: 0.5rem;
     /* flex-wrap: wrap; */
-    justify-content: center;
-}
+    /* justify-content: center;
+} */
 
 ul li,
 nav ul li {
@@ -195,7 +198,7 @@ button:hover {
 }
 
 
-
+/* 
 
 @media (max-width: 700px) {
     ul,
@@ -215,4 +218,4 @@ button:hover {
     .tab-panel {
         border-radius: 0.5rem;
     }
-} */
+} */ */
