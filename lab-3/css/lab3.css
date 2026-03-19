@@ -156,6 +156,11 @@ button {
     transition: 0.2s ease;
 }
 
+footer {
+	margin: 20px;
+	text-align: center;
+}
+
 /* ul li a:hover,
 nav ul li a:hover,
 button:hover {
