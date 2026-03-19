@@ -17,4 +17,16 @@ function showTab(targetId) {
 			activePanel.classList.add("show");
 		}
     }
+
+    tabs.forEach(tab => {
+		tab.addEventListener("click", function(event) {
+			event.preventDefault();
+			const targetId = this.getAttribute("href");
+			showTab(targetId);
+		});
+	});
+
+	if (tabs.length > 0) {
+		showTab(tabs[0].getAttribute("href"));
+	}
 });
