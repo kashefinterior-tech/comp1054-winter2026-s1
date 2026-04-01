@@ -22,3 +22,42 @@ td, th{
     border: 1px solid grey;
     padding: 0.5em;
 }
+
+tbody th{
+    text-align: center;
+
+}
+
+tbody td{
+    text-align: center;
+}
+
+
+tbody tr:nth-child(even) {
+    background-color: rgba(93, 250, 255, 0.15);
+}
+
+tfoot td {
+    font-size: 60%;
+}
+
+caption {
+    font-size: 150%;
+    margin-bottom: 0.5rem;
+}
+
+colgroup + colgroup col:nth-child(1) {
+    background-color: rgba(255, 0, 0, 0.08);
+}
+
+colgroup + colgroup col:nth-child(2) {
+    background-color: rgba(0, 0, 255, 0.08);
+}
+
+colgroup + colgroup col:nth-child(3) {
+    background-color: rgba(255, 255, 0, 0.10);
+}
+
+colgroup + colgroup col:nth-child(4) {
+    background-color: rgba(0, 255, 0, 0.08);
+}
