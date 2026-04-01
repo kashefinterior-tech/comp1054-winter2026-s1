@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+body{
+    margin: 0;
+    padding: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    caption-side: top;
+    width: 700px;
+    max-width: 100%;
+    table-layout: auto;
+    margin: 0 auto;
+}
+
+td, th{
+    border: 1px solid grey;
+    padding: 0.5em;
+}
