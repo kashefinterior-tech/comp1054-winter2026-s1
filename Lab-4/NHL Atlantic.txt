@@ -1,19 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>NHL Atlantic</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <script src="js/tablesort/tablesort.min.js"></script>
-        <link rel="tables" href="java/tables.js">
-    </head>
-    <body>
-        <header>
-            <h1>NHL Atlantic-standing</h1>
-        </header>
-        <main>
-            1. Buffalo Sabres
+1. Buffalo Sabres
 GP: 75 | W: 46 | L: 21 | OT: 8 | PTS: 100 | P%: .667
 RW: 38 | ROW: 41 | GF: 263 | GA: 221 | DIFF: +42
 2. Tampa Bay Lightning
@@ -37,9 +22,3 @@ RW: 23 | ROW: 31 | GF: 235 | GA: 264 | DIFF: -29
 8. Florida Panthers
 GP: 74 | W: 36 | L: 35 | OT: 3 | PTS: 75 | P%: .507
 RW: 28 | ROW: 31 | GF: 222 | GA: 247 | DIFF: -25
-        </main>
-        <footer>
-
-        </footer>
-    </body>
-</html>
