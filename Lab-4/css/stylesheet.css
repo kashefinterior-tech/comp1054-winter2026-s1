@@ -21,6 +21,9 @@ table{
     margin: 0 auto;
 }
 
+thead{
+    text-align: left;
+}
 th{
     font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif;
      /* background: rgba(225, 225, 225, 0.5); */
@@ -52,11 +55,16 @@ tbody tr:nth-child(even) {
 
 tfoot td {
     font-size: 60%;
+    text-align: center;
 }
 
 caption {
     font-size: 150%;
     margin-bottom: 0.5rem;
+}
+
+footer{
+    text-align: center;
 }
 
 /* colgroup + colgroup col:nth-child(1) {
