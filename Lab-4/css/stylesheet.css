@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-    /* font: 120%/1.2 "Trebuchet MS", Arial, Helvetica, sans-serif; */
+    
 } 
 body{
     margin: 0;
@@ -40,7 +40,7 @@ td, th{
 }
 
 tbody th{
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -83,6 +83,6 @@ colgroup + colgroup col:nth-child(4) {
     background-color: rgba(0, 255, 0, 0.08); 
  } */
 
-colgroup + colgroup col:nth-child(5) {
+colgroup + colgroup col:nth-child(6) {
     background-color: rgba(0, 204, 255, 0.08);
 }

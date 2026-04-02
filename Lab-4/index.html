@@ -1,136 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>NHL Atlantic</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/stylesheet.css">
-        <script src="js/tablesort/tablesort.min.js"></script>
-        <link rel="tables" href="java/tables.js">
-    </head>
-    <body>
-        <header>
-            <h1>NHL Atlantic-standing</h1>
-        </header>
-        <main>
-            <table>
-                <caption>Atlantic Division standings</caption>
+
+<head>
+    <meta charset="UTF-8">
+    <title>NHL Atlantic</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <script src="js/tablesort/tablesort.min.js"></script>
+    <!-- <link rel="tables" href="java/tables.js"> -->
+    <script src="js/tables.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>NHL Atlantic-standing</h1>
+    </header>
+    <main>
+        <table>
+            <caption>Atlantic Division standings</caption>
 
             <colgroup>
-			    <col />
-			</colgroup>
-			<colgroup>
-				<col />
-				<col />
-				<col />
-				<col />
-                <col/>
-			</colgroup>
+                <col />
+            </colgroup>
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
 
-    <thead>
-     <tr>
-        <th>Rank</th>
-        <th>Team</th>
-        <td>GP</td>
-        <td>W</td>
-        <td>L</td>
-        <td>OT</td>
-        <td>PTS</td>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-        <th scope="row">1</th>
-        <th> Buffalo Sabres</th>
-        <td>75</td>
-        <td>46</td>
-	    <td>21</td>
-		<td>8</td>
-		<td>100</td>
-        
-
-    </tr>
-    <tr>
-        <th scope="row">2</th>
-        <th>Tampa Bay Lightning</th>
-        <td>74</td>
-		<td>46</td>
-		<td>22</td>
-		<td>6</td>
-		<td>98</td>
-    </tr>
-    <tr>
-        <th scope="row">3</th>
-        <th>Montréal Canadiens</th>
-        <td>74</td>
-		<td>43</td>
-		<td>21</td>
-		<td>10</td>
-		<td>96</td>
-
-        
-    </tr>
-    <tr>
-        <th scope="row">4</th>
-        <th>Boston Bruins</th>
-        <td>75</td>
-		<td>43</td>
-		<td>24</td>
-		<td>8</td>
-		<td>94</td>
-        
-    </tr>
-    <tr>
-        <th scope="row">5</th>
-        <th>Ottawa Senators</th>
-        <td>74</td>
-		<td>38</td>
-		<td>26</td>
-		<td>10</td>
-		<td>86</td>
-        
-    </tr>
-    <tr>
-        <th scope="row">6</th>
-        <th>Detroit Red Wings</th>
-        <td>74</td>
-		<td>39</td>
-		<td>27</td>
-		<td>8</td>
-		<td>86</td>
-        
-    </tr>
-    <tr>
-        <th scope="row">7</th>
-        <th>Toronto Maple Leafs</th>
-        <td>75</td>
-		<td>32</td>
-		<td>30</td>
-		<td>13</td>
-		<td>77</td>
-        
-    </tr>
-    <tr>
-        <th scope="row">8</th>
-        <th>Florida Panthers</th>
-        <td>74</td>
-		<td>36</td>
-		<td>35</td>
-		<td>3</td>
-		<td>75</td>
-    </tr>
-    </tbody>
-    <tfoot>
-         <td colspan="6">
-                https://www.nhl.com/standings/2026-03-31/division
-        </td>
-   </tfoot>
+            <thead>
+                <tr>
+                    <th scope="col">Rank</th>
+                    <th scope="col">Team</th>
+                    <td scope="col">GP</td>
+                    <td scope="col">W</td>
+                    <td scope="col">L</td>
+                    <td scope="col">OT</td>
+                    <td scope="col">PTS</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <th> Buffalo Sabres</th>
+                    <td>75</td>
+                    <td>46</td>
+                    <td>21</td>
+                    <td>8</td>
+                    <td>100</td>
 
 
-</table>
-        </main>
-        <footer>
-            <small>NHL-Standings-Table</small>
-        </footer>
-    </body>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <th>Tampa Bay Lightning</th>
+                    <td>74</td>
+                    <td>46</td>
+                    <td>22</td>
+                    <td>6</td>
+                    <td>98</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <th>Montréal Canadiens</th>
+                    <td>74</td>
+                    <td>43</td>
+                    <td>21</td>
+                    <td>10</td>
+                    <td>96</td>
+
+
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <th>Boston Bruins</th>
+                    <td>75</td>
+                    <td>43</td>
+                    <td>24</td>
+                    <td>8</td>
+                    <td>94</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">5</th>
+                    <th>Ottawa Senators</th>
+                    <td>74</td>
+                    <td>38</td>
+                    <td>26</td>
+                    <td>10</td>
+                    <td>86</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <th>Detroit Red Wings</th>
+                    <td>74</td>
+                    <td>39</td>
+                    <td>27</td>
+                    <td>8</td>
+                    <td>86</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">7</th>
+                    <th>Toronto Maple Leafs</th>
+                    <td>75</td>
+                    <td>32</td>
+                    <td>30</td>
+                    <td>13</td>
+                    <td>77</td>
+
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <th>Florida Panthers</th>
+                    <td>74</td>
+                    <td>36</td>
+                    <td>35</td>
+                    <td>3</td>
+                    <td>75</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7">
+                        https://www.nhl.com/standings/2026-03-31/division
+                    </td>
+                </tr>
+            </tfoot>
+
+
+        </table>
+    </main>
+    <footer>
+        <small>NHL-Standings-Table</small>
+    </footer>
+</body>
+
 </html>
