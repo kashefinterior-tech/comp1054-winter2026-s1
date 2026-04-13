@@ -5,6 +5,7 @@ body{
     background-color: rgb(2, 0, 17);
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    cursor: crosshair;
 }
 
 /* background stars  */
