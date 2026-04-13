@@ -16,6 +16,8 @@ body::before{
     background-image: radial-gradient(white 1px, transparent 1px);
     background-size: 50px 50px;
     opacity: 0.3;
+    pointer-events: none;
+    z-index: -1;
 }
 
 /* header */
