@@ -106,7 +106,7 @@ nav ul{
 /* Put nav items in one row */
 nav li{
     display: inline-block;
-    margin: 8px;
+    margin: 12px;
 }
 
 /* Nav links */
@@ -166,7 +166,7 @@ nav a::before {
 section{
     background-color: rgba(25, 10, 50, 0.7);
     border: 2px solid cyan;
-    margin: 30px auto;
+    margin: 40px auto;
     max-width: 900px;
     padding: 20px;
     border-radius: 10px;
@@ -175,6 +175,7 @@ section{
 
 section:hover {
     box-shadow: 0 0 20px hotpink;
+    transform: scale(1.02);
 }
 
 p{
