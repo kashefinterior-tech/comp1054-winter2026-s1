@@ -123,3 +123,12 @@ nav a::before {
   }
 }
 
+/* styling all the sections  */
+section{
+    background-color: rgba(10, 16, 80, 0.8);
+    border: 2px solid cyan;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+}
