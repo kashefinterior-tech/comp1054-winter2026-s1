@@ -142,3 +142,35 @@ p{
     color: #efefef;
 }
 
+/* desktop layout */
+@media (min-width: 900px) {
+
+
+    main.container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+
+        nav ul {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    header h1 {
+        font-size: 80px;
+    }
+
+    header h2 {
+        font-size: 30px;
+    }
+}
+
+
