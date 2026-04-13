@@ -62,5 +62,37 @@ header h1{
 /* Subtitle */
 header h2 {
   color: cyan;
-  text-shadow: 0 0 10px cyan;
+  text-shadow: 0 0 8px cyan;
+}
+
+/* nav bar */
+nav{
+    text-align: center;
+    padding: 15px 10px;
+}
+
+/* removing bullet points */
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Put nav items in one row */
+nav li{
+    display: inline-block;
+    margin: 8px;
+}
+
+/* Nav links */
+nav a{
+    color: cyan;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 0 0 5px cyan;
+}
+
+/* Alien icon before each link */
+nav a::before{
+    content: "👾";
 }
