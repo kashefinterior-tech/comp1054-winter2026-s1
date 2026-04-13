@@ -109,14 +109,17 @@ nav a:hover {
   100% { transform: translateY(0); }
 }
 
+/* Alien icon before each link */
 nav a::before {
   content: "👾 ";
   display: inline-block;
   animation: floatAlien 2s infinite ease-in-out;
 }
 
-/* Alien icon before each link */
-nav a::before{
-    content: "👾";
+
+@media (prefers-reduced-motion: reduce) {
+  nav a::before {
+    animation: none;
+  }
 }
 
