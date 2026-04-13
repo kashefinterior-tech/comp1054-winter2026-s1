@@ -67,6 +67,11 @@ header h2 {
   text-shadow: 0 0 8px cyan;
 }
 
+h2{
+    color: hotpink;
+    text-shadow: 0 0 8px hotpink;
+}
+
 /* nav bar */
 nav{
     text-align: center;
@@ -132,3 +137,4 @@ section{
     border-radius: 10px;
     box-shadow: 0 0 10px cyan;
 }
+
