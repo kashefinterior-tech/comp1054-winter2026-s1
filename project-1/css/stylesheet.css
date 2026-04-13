@@ -100,6 +100,21 @@ nav a:hover {
     text-shadow: 0 0 8px hotpink;
 }
 
+/* Source consulted: MDN Web Docs - CSS Animations
+   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations */
+
+@keyframes floatAlien {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-4px); }
+  100% { transform: translateY(0); }
+}
+
+nav a::before {
+  content: "👾 ";
+  display: inline-block;
+  animation: floatAlien 2s infinite ease-in-out;
+}
+
 /* Alien icon before each link */
 nav a::before{
     content: "👾";
