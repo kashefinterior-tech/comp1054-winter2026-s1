@@ -26,14 +26,28 @@ header{
     text-align: center;
 }
 
-/* ufo */
-header::after{
-    content: 🛸;
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 40px;
+/* Animation inspired by:
+   MDN Web Docs - CSS Animations
+   https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations
+*/
+/* Animation inspired by MDN Web Docs */
+
+@keyframes floatUFO {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
 }
+
+/* ufo */
+header::after {
+  content: "🛸";
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 40px;
+  animation: floatUFO 3s infinite ease-in-out;
+}
+
 
 /* neon light  */
 header h1{
