@@ -30,7 +30,6 @@ header{
     text-align:center;
     padding: 40px 20px;
     position: relative;
-    text-align: center;
 }
 
 /* Animation inspired by:
@@ -78,11 +77,17 @@ h2{
 }
 
 h2::before {
-    content: "⭐️";
+    content: "⭐️ ";
 }
 
 h2::after {
-    content: "⭐️";
+    content: " ⭐️";
+}
+
+h3 {
+    color: cyan;
+    text-shadow: 0 0 6px cyan;
+    margin-top: 20px;
 }
 
 /* nav bar */
@@ -118,6 +123,18 @@ nav a:hover {
     text-shadow: 0 0 8px hotpink;
 }
 
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+ul li::marker {
+    color: hotpink;
+}
+
 /* Source consulted: MDN Web Docs - CSS Animations
    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations */
 
@@ -147,12 +164,17 @@ nav a::before {
 
 /* styling all the sections  */
 section{
-    background-color: rgba(10, 16, 80, 0.8);
+    background-color: rgba(25, 10, 50, 0.7);
     border: 2px solid cyan;
-    margin: 20px;
+    margin: 30px auto;
+    max-width: 900px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px cyan;
+}
+
+section:hover {
+    box-shadow: 0 0 20px hotpink;
 }
 
 p{
@@ -216,7 +238,7 @@ p{
 p a,
 li a{
     color: cyan;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 p a:hover,
@@ -249,4 +271,8 @@ li a:hover{
 .page-footer li{
     display: inline-block;
     margin: 8px;
+}
+
+* {
+    transition: 0.3s;
 }
