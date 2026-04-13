@@ -191,8 +191,23 @@ p{
 
 /* hover for buttons */
 [class^="link"]:hover {
+    content: "⭐️";
     background-color: cyan;
     color: black;
     box-shadow: 0 0 12px cyan;
 }
 
+/* [class^="link"]::before {
+    content: "⭐️";
+}  */
+
+p a,
+li a{
+    color: cyan;
+    text-decoration: none;
+}
+
+p a:hover,
+li a:hover{
+    color: hotpink;
+}
