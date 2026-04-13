@@ -58,7 +58,7 @@ header h1{
     text-shadow: 
     /* 0 0 5px hotpink, */
     /* 0 0 10px hotpink, */
-    0 0 20px hotpink;
+    0 0 14px hotpink;
 }
 
 /* Subtitle */
@@ -210,4 +210,31 @@ li a{
 p a:hover,
 li a:hover{
     color: hotpink;
+}
+
+/* footer */
+.page-footer {
+    text-align: center;
+    padding: 30px 20px;
+    margin-top: 40px;
+    background-color: rgba(10, 5, 25, 0.9);
+    border-top: 2px solid hotpink;
+    box-shadow: 0 0 12px hotpink;
+}
+
+/* footer text */
+.page-footer p {
+    color: white;
+}
+
+/* footer list */
+.page-footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0 ;
+}
+
+.page-footer li{
+    display: inline-block;
+    margin: 8px;
 }
