@@ -8,6 +8,10 @@ body{
     cursor: crosshair;
 }
 
+main {
+    padding: 20px;
+}
+
 /* background stars  */
 body::before{
     content: "";
@@ -71,6 +75,14 @@ header h2 {
 h2{
     color: hotpink;
     text-shadow: 0 0 8px hotpink;
+}
+
+h2::before {
+    content: "⭐️";
+}
+
+h2::after {
+    content: "⭐️";
 }
 
 /* nav bar */
