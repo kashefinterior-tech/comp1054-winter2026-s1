@@ -90,9 +90,16 @@ nav a{
     text-decoration: none;
     font-size: 20px;
     text-shadow: 0 0 5px cyan;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: hotpink;
+    text-shadow: 0 0 8px hotpink;
 }
 
 /* Alien icon before each link */
 nav a::before{
     content: "👾";
 }
+
