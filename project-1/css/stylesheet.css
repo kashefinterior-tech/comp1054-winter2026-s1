@@ -22,6 +22,17 @@ body::before{
 header{
     text-align:center;
     padding: 40px 20px;
+    position: relative;
+    text-align: center;
+}
+
+/* ufo */
+header::after{
+    content: 🛸;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
 }
 
 /* neon light  */
