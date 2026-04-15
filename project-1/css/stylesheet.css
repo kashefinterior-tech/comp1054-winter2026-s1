@@ -375,3 +375,14 @@ header .container,
     padding-right: 20px;
 }
 
+strong {
+    color: #00ffff;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+blockquote{
+    border-left: 5px solid hotpink;
+    padding-left: 15px;
+    font-style: italic;
+    background: rgba(220, 31, 132, 0.08);
+}
