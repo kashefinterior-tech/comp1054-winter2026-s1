@@ -60,11 +60,14 @@ header::after {
 /* neon light  */
 header h1{
     font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
     color: hotpink;
     text-shadow: 
     /* 0 0 5px hotpink, */
     /* 0 0 10px hotpink, */
-    0 0 14px hotpink;
+    0 0 14px rgb(245, 37, 141);
 }
 
 /* Subtitle */
@@ -75,7 +78,7 @@ header h2 {
 
 h2{
     color: hotpink;
-    text-shadow: 0 0 8px hotpink;
+    text-shadow: 0 0 8px  rgb(245, 37, 141);
 }
 
 h2::before {
