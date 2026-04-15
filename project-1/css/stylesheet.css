@@ -224,6 +224,7 @@ aside {
     border: 2px dashed cyan;
     padding: 20px;
     margin: 20px 0;
+    clear: both;
 }
 
 aside h2, aside h4 {
@@ -424,4 +425,13 @@ section, article, aside {
     width: 100%;
     margin-bottom: 30px;
     box-sizing: border-box;
+}
+
+/* Fix the list inside the 'Featured Styles' aside */
+.features {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
