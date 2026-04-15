@@ -262,6 +262,13 @@ p{
         align-items: start;
     }
 
+    aside.profile, #styles{
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin: 2%;
+    }
+
         nav ul {
         display: flex;
         justify-content: center;
