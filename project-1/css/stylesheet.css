@@ -27,6 +27,20 @@ body::before{
     z-index: -1;
 }
 
+body::after{
+    content: "";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(rgba(0,0,0, 0));
+    z-index: 2000;
+    pointer-events: none;
+}
+
+
 /* header */
 header{
     text-align:center;
@@ -73,7 +87,7 @@ header h1{
 /* Subtitle */
 header h2 {
   color: cyan;
-  text-shadow: 0 0 8px cyan;
+  text-shadow: 0 0 8px rgb(4, 200, 200);
 }
 
 h2{
@@ -91,7 +105,7 @@ h2::after {
 
 h3 {
     color: cyan;
-    text-shadow: 0 0 6px cyan;
+    text-shadow: 0 0 6px rgb(4, 200, 200);
     margin-top: 20px;
 }
 
@@ -119,13 +133,13 @@ nav a{
     color: cyan;
     text-decoration: none;
     font-size: 20px;
-    text-shadow: 0 0 5px cyan;
+    text-shadow: 0 0 5px rgb(4, 200, 200);
     transition: 0.3s;
 }
 
 nav a:hover {
     color: hotpink;
-    text-shadow: 0 0 8px hotpink;
+    text-shadow: 0 0 8px rgb(245, 37, 141);
 }
 
 ul {
@@ -175,10 +189,11 @@ section{
     max-width: 900px;
     padding: 24px;
     border-radius: 1px;
-    box-shadow: 0 0 10px cyan;
+    box-shadow: 0 0 10px rgb(4, 200, 200);
 }
 
 section:hover {
+    border-color: cyan;
     border: hotpink;
     box-shadow: 0 0 20px hotpink;
     transform: scale(1.02);
