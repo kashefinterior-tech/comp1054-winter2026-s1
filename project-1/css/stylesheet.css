@@ -385,4 +385,15 @@ blockquote{
     padding-left: 15px;
     font-style: italic;
     background: rgba(220, 31, 132, 0.08);
+    padding: 15px;
+    margin: 20px 0;
+    position: relative;
+}
+
+blockquote::before{
+    content: "MESSAGE RECEIVED:";
+    display: block;
+    font-size: 12px;
+    color: hotpink;
+    margin-bottom: 10px;
 }
