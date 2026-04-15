@@ -410,3 +410,18 @@ blockquote::before{
 .skip-link:focus {
     top: 0;
 }
+
+/* Keep everything centered and neat */
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Make sure sections don't overlap */
+section, article, aside {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+}
