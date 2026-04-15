@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Accent Color Demo</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        /* ✨ This is the main property */
+        input,
+        progress {
+            /* accent-color: #00cfff; icy blue */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 15px;
+        }
+
+        input[type="range"] {
+            width: 200px;
+        }
+
+        progress {
+            width: 200px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Accent Color Demo</h1>
+
+    <!-- Checkbox -->
+    <label>
+        <input type="checkbox"> Accept Terms
+    </label>
+
+    <!-- Radio buttons -->
+    <label>
+        <input type="radio" name="choice"> Option 1
+    </label>
+
+    <label>
+        <input type="radio" name="choice"> Option 2
+    </label>
+
+    <!-- Range slider -->
+    <label>
+        Volume:
+        <input type="range">
+    </label>
+
+    <!-- Progress bar -->
+    <label>
+        Loading:
+        <progress value="70" max="100"></progress>
+    </label>
+
+</body>
+</html>

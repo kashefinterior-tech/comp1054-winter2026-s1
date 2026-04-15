@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+/* ✨ Different accent colors */
+
+/* Checkbox */
+input[type="checkbox"] {
+    accent-color: green;
+}
+
+/* Radio buttons */
+input[type="radio"] {
+    accent-color: red;
+}
+
+/* Second radio button */
+input[type="radio"]:nth-of-type(2) {
+   accent-color: blue;
+}
+
+/* Range slider */
+input[type="range"] {
+    accent-color: pink;
+}
+
+/* Progress bar */
+progress {
+    accent-color: grey;
+}
