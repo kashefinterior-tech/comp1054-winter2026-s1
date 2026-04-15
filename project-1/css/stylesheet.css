@@ -252,8 +252,10 @@ p{
 
 
     main .container{
-        max-width: 1200px;
-        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 40px;
+        align-items: start;
     }
 
     article{
@@ -261,6 +263,12 @@ p{
         grid-template-columns: 1fr 1fr;
         gap: 20px;
         align-items: start;
+        grid-column: 1;
+    }
+
+    aside {
+        grid-column: 2;
+        margin-top: 0;
     }
 
     aside.profile, #styles{
@@ -270,14 +278,15 @@ p{
         margin: 2%;
     }
 
-        nav ul {
+    nav ul {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        gap: 20px;
     }
 
     header h1 {
-        font-size: 80px;
+        font-size: 70px;
     }
 
     header h2 {
