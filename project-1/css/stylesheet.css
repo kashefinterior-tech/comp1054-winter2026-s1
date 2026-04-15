@@ -226,7 +226,20 @@ aside {
     margin: 20px 0;
 }
 
+aside h2, aside h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
 
+aside ul{
+    list-style: none;
+    padding: 0;
+}
+
+aside li{
+    border-bottom: 1px solid rgba(0, 255 ,255 ,0.2);
+    padding: 0;
+}
 
 p{
     color: #efefef;
