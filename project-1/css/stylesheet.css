@@ -39,6 +39,16 @@ main {
     padding: 20px;
 }
 
+/* CITATION: CSS Animations and Keyframes
+   Source: MDN Web Docs - @keyframes
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes
+   Consulted for: Defining the 'scanline' sequence using percentage selectors (0%, 100%).
+*/
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
 main::before{
     content: "";
     position: fixed;
