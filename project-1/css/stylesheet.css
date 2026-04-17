@@ -211,6 +211,12 @@ header h1{
 header h2 {
   color: cyan;
   text-shadow: 0 0 8px rgb(4, 200, 200);
+  font-size: 20px;
+}
+
+header h2::after {
+    content: " ⭐️";
+    font-size: 25px;
 }
 
 
