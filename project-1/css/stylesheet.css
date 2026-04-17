@@ -69,6 +69,20 @@ header{
     position: relative;
 }
 
+header h2, 
+header p{
+    display: block;
+    background: rgba(0, 255, 255, 0.1);
+    border-left: 3px solid cyan;
+    border-right: 3px solid cyan;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+
+}
+
 /* Animation inspired by:
    MDN Web Docs - CSS Animations
    https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_animations
