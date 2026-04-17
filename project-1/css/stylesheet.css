@@ -267,29 +267,32 @@ p{
 
     main .container{
         display: grid;
-        grid-template-columns: 2fr 1fr;
-        gap: 20px;
-        align-items: start;
+        grid-template-columns: (12, 1fr);
+        gap: 0px;
+        /* align-items: start; */
     }
 
     #about {
         grid-column: 1/9;
-        margin-top: 50px;
+        margin-top: 100px;
+        z-index: 1;
     }
 
     #guidelines{
         grid-column: 5/13;
-        margin-top: -50px;
+        margin-top: -80px;
         z-index: 2;
     }
 
     #contribute {
         grid-column: 3/11;
-        margin-top: 50px;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
     #style{
-        grid-column: 1/5;
+        grid-column: 1/4;
         grid-row: 2;
+        margin: 0;
     }
     article{
         display: grid;
@@ -305,9 +308,9 @@ p{
     }
 
     aside.profile {
-        grid-column: 9/13;
+        grid-column: 10/13;
         grid-row: 1;
-        margin-top: 100px;
+        margin-top: 150px;
     }
 
     aside.profile, #styles{
@@ -332,6 +335,25 @@ p{
 
     header h2 {
         font-size: 30px;
+    }
+
+    section{
+        position: relative;
+        padding-left: 80px;
+    }
+    section h2 {
+        position: absolute;
+        left: -30px;
+        top: 60px;
+        transform: rotate(-90deg);
+        transform-origin:left top ;
+        font-size: 1.5rem;
+        white-space: nowrap;
+        border-bottom: 2px solid cyan;
+        padding: 5px;
+    }
+    h2::before, h2::after{
+        content: "";
     }
 }
 
@@ -456,7 +478,7 @@ blockquote::before{
     background: hotpink;
     color: black;
     padding: 10px;
-    z-index: 9999;
+    z-index: 100;
 }
 .skip-link:focus {
     top: 0;
