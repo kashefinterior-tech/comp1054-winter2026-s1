@@ -177,7 +177,18 @@ ul {
 }
 
 ul li {
-    margin: 8px 0;
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    /* margin: 8px 0; */
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    padding-left: 25px;
+    margin-left: 12px;
 }
 
 ul li::marker {
@@ -274,8 +285,8 @@ p{
 
     #about {
         position: relative;
-        grid-column: 1/9;
-        margin-top: 100px;
+        /* grid-column: 1/9;
+        margin-top: 100px; */
         z-index: 1;
     }
 
