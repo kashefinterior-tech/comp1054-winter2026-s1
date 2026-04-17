@@ -6,7 +6,9 @@
 
 /* prevent the gap on right side of the page */
 html, body
-{
+{   
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     width: 100%;
 }
@@ -755,12 +757,12 @@ section, article, aside {
 #files{
     display: block;
     background: rgba(0, 255, 255, 0.1);
-    width: 100vw;
-    max-width: 100vw;
+    /* width: 100vw; */
+    /* max-width: 100vw; */
     position: relative;
-    /* left: 50%;
-    right: 50%;
-    margin-left: -50vm;
+    /* left: 50%;  */
+    /* right: 50%; */
+    /* margin-left: -50vm;
     margin-right: -50vm; */
     /* transform: translateX(-50%); */
     border-top: 1px solid cyan;
@@ -770,6 +772,16 @@ section, article, aside {
     margin-bottom: 60px;
     text-align: center;
     box-sizing: border-box;
+    
+    /* CITATION: Full-width background without scrollbars
+   Source: MDN Web Docs - box-shadow
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+   Source: MDN Web Docs - clip-path
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+   Consulted for: Using a large spread-radius and inset clipping to create edge-to-edge background bars without horizontal overflow.
+*/
+    box-shadow: 0 0 0 100vmax rgba(0, 255, 255, 0.1);
+    clip-path: inset(0 -100vmax);
 }
 
 #files h3{
@@ -778,6 +790,7 @@ section, article, aside {
     font-size: 1.2rem;
     letter-spacing: 3px;
     color: cyan;
+    text-shadow: 0 0 5px cyan;
 }
 
 #files .container{
