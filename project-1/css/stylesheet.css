@@ -1,4 +1,15 @@
+/* CITATION: CSS Overflow Control
+   Source: MDN Web Docs - overflow-x
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
+   Consulted for: Preventing horizontal scrollbars and ensuring full-width breakout elements reach the viewport edges.
+*/
 
+/* prevent the gap on right side of the page */
+html, body
+{
+    overflow-x: hidden;
+    width: 100%;
+}
 /* trying to make space 🚀 background color */
 body{
     margin:0;
@@ -745,13 +756,18 @@ section, article, aside {
     display: block;
     background: rgba(0, 255, 255, 0.1);
     width: 100vm;
+    max-width: 100vm;
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    right: 50%;
+    margin-left: -50vm;
+    margin-right: -50vm; */
+    /* transform: translateX(-50%); */
     border-top: 1px solid cyan;
     border-bottom: 1px solid cyan;
-    padding: 30px 0;
-    margin: 60px 0;
+    padding: 40px 0;
+    margin-top: 60px;
+    margin-bottom: 60px;
     text-align: center;
     box-sizing: border-box;
 }
