@@ -303,6 +303,7 @@ p{
     }
 
     aside {
+        
         grid-column: 2;
         margin-top: 0;
     }
@@ -338,9 +339,33 @@ p{
     }
 
     section{
+        background: rgba(10, 5, 25, 0.9);
+        border: 1px solid rgba(0, 255, 255, 0.3);
         position: relative;
-        padding-left: 80px;
+        /* padding-left: 80px; */
     }
+
+    section::before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        width: 20px;
+        height: 20px;
+        border-top: 3px solid hotpink;
+        border-left: 3px solid hotpink;
+    }
+
+    section::after{
+        content: "COORD: 44.4° N / 79.6° W"; /*just to look like NASA detail pictures */
+        position: absolute;
+        bottom: 5px;
+        right: 10px;
+        font-size: 10px;
+        color: cyan;
+        opacity: 0.6;
+    }
+
     section h2 {
         position: absolute;
         left: -30px;
