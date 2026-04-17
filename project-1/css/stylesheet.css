@@ -311,6 +311,18 @@ p{
         padding: 0 0 0 20px;
     }
 
+    aside h4, aside h2{
+        border: none;
+        border-left: 1px solid cyan;
+        background: transparent;
+        padding: 0 0 0 20px;
+    }
+
+    aside ul li{
+        font-size: 0.8rem;
+        border-bottom: 1px solid rgba(0, 255, 255, 0.1);
+    }
+
     aside.profile {
         grid-column: 10/13;
         grid-row: 1;
