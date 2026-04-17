@@ -93,8 +93,8 @@ header p{
     margin-left: -50vm;
     margin-right: -50vm; */
     transform: translateX(-50%);
-    border-top: 3px solid rgb(0, 255, 255, 0.8);
-    border-bottom: 3px solid rgb(0, 255, 255, 0.2);
+    border-top: 1px solid rgb(0, 255, 255, 0.8);
+    border-bottom: 1px solid rgb(0, 255, 255, 0.8);
     padding: 10px 20px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -772,7 +772,7 @@ section, article, aside {
     margin-bottom: 60px;
     text-align: center;
     box-sizing: border-box;
-    
+
     /* CITATION: Full-width background without scrollbars
    Source: MDN Web Docs - box-shadow
    URL: https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
