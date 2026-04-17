@@ -740,3 +740,18 @@ section, article, aside {
     fill: hotpink;
     filter: drop-shadow(0 0 5px hotpink);
 }
+
+#files{
+    display: block;
+    background: rgba(0, 255, 255, 0.1);
+    width: 100vm;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    padding: 30px 0;
+    margin: 60px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
