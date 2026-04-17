@@ -82,12 +82,21 @@ header{
 }
 
 /* ufo */
+/* CITATION: CSS Animation Shorthand & Timing Functions
+   Source: MDN Web Docs - animation
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/animation
+   Consulted for: Combining animation-name, duration, iteration-count, and timing-function into a single declaration.
+
+   Source: MDN Web Docs - animation-timing-function
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timing-function
+   Consulted for: Using 'ease-in-out' to create a smooth, organic hovering effect for the UFO.
+*/
 header::after {
   content: "🛸";
   position: absolute;
-  top: 20px;
-  right: 30px;
-  font-size: 40px;
+  top: 10px;
+  right: 50px;
+  font-size: 80px;
   animation: floatUFO 3s infinite ease-in-out;
 }
 
@@ -399,6 +408,18 @@ p{
         background: rgba(20, 0, 40, 0.9);
         transform: translateX(10px);
     }
+    /* CITATION: Text Shadow Effects
+   Source: MDN Web Docs - text-shadow
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow
+   Consulted for: Creating glowing neon effects for text.
+    */
+    @keyframes pulseGlow {
+    0% { text-shadow: 0 0 5px cyan; }
+    50% { text-shadow: 0 0 20px cyan; }
+    100% { text-shadow: 0 0 5px cyan; }
+    }   
+
+    
 
     section::before{
         content: "";
