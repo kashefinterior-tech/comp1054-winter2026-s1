@@ -162,12 +162,19 @@ header::after {
 header h1{
     font-size: 50px;
     font-family: sans-serif;
-    font-weight: 900;
+    font-weight: 1000;
     font-style: italic;
-    color: linear-gradient(hotpink, cyan, icyblue);;
+    /* color:  hotpink; */
+    /* color: linear-gradient(hotpink, cyan); */
+    /* 1. Apply the gradient as a background image */
+    background: linear-gradient(to bottom, hotpink, rgb(136, 127, 131));
+    /* 2. clip the background so it only exists imside the letters */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* 3. make the letters transparent so the background shows through */
+    color: transparent;
+    font-weight: 900;
     text-shadow: 
-    /* 0 0 5px hotpink, */
-    /* 0 0 10px hotpink, */
     0 0 14px rgb(245, 37, 141);
     position: relative;
     z-index: 10;
