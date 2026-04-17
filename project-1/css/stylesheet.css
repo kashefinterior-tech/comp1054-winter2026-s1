@@ -292,6 +292,12 @@ p{
         z-index: 1;
     }
 
+    #about ul{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        gap: 10px;
+    }
+
     #guidelines{
         /* grid-column: 5/13; */
         /* margin-top: -80px; */
