@@ -254,13 +254,32 @@ p{
     main .container{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        gap: 40px;
+        gap: 20px;
         align-items: start;
     }
 
+    #about {
+        grid-column: 1/9;
+        margin-top: 50px;
+    }
+
+    #guidelines{
+        grid-column: 5/13;
+        margin-top: -50px;
+        z-index: 2;
+    }
+
+    #contribute {
+        grid-column: 3/11;
+        margin-top: 50px;
+    }
+    #style{
+        grid-column: 1/5;
+        grid-row: 2;
+    }
     article{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr; */
         gap: 20px;
         align-items: start;
         grid-column: 1;
@@ -269,6 +288,12 @@ p{
     aside {
         grid-column: 2;
         margin-top: 0;
+    }
+
+    aside.profile {
+        grid-column: 9/13;
+        grid-row: 1;
+        margin-top: 100px;
     }
 
     aside.profile, #styles{
