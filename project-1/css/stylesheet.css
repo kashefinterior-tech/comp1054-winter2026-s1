@@ -75,12 +75,13 @@ header p{
     background: rgba(0, 255, 255, 0.1);
     width: 100vw;
     position: relative;
-    /* left: 50%;
-    right: 50%;
+    left: 50%;
+    /* right: 50%;
     margin-left: -50vm;
     margin-right: -50vm; */
-    border-top: 3px solid cyan;
-    border-bottom: 3px solid cyan;
+    transform: translateX(-50%);
+    border-top: 3px solid rgb(0, 255, 255, 0.8);
+    border-bottom: 3px solid rgb(0, 255, 255, 0.2);
     padding: 10px 20px;
     margin: 0 auto;
     box-sizing: border-box;
@@ -88,8 +89,8 @@ header p{
 }
 header p{
     font-size: 0.9rem;
-    border-bottom: 1px solid rgba(0, 255, 255, 0.05);
-    padding-bottom: 20px;
+    /* border-bottom: 1px solid rgba(0, 255, 255, 0.05);
+    padding-bottom: 20px; */
     color: #efefef;
     letter-spacing: 1px;
 }
