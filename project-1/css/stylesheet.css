@@ -273,21 +273,25 @@ p{
     }
 
     #about {
+        position: relative;
         grid-column: 1/9;
         margin-top: 100px;
         z-index: 1;
     }
 
     #guidelines{
-        grid-column: 5/13;
-        margin-top: -80px;
-        z-index: 2;
+        /* grid-column: 5/13; */
+        /* margin-top: -80px; */
+        z-index: 5;
+        position: relative;
+        background: rgba(5, 0 ,30 ,0.95);
     }
 
     #contribute {
-        grid-column: 3/11;
-        margin-top: 100px;
-        margin-bottom: 100px;
+        /* grid-column: 3/11; */
+        /* margin-top: 100px;
+        margin-bottom: 100px; */
+        position: relative;
     }
     #style{
         grid-column: 1/4;
