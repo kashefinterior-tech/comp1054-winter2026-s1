@@ -791,11 +791,37 @@ section, article, aside {
     letter-spacing: 3px;
     color: cyan;
     text-shadow: 0 0 5px cyan;
+    justify-content: center;
 }
 
 #files .container{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
-    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    
+    
+}
+
+
+#files a {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid cyan;
+    color: cyan;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    background: rgba(0, 255, 255, 0.05);
+}
+
+#files a:hover {
+    background: cyan;
+    color: #000;
+    box-shadow: 0 0 20px cyan;
+    transform: translateY(-3px); 
 }
