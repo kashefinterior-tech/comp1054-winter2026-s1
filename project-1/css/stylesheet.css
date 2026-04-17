@@ -73,11 +73,18 @@ header h2,
 header p{
     display: block;
     background: rgba(0, 255, 255, 0.1);
+    width: 100vw;
+    position: relative;
+    /* left: 50%;
+    right: 50%;
+    margin-left: -50vm;
+    margin-right: -50vm; */
     border-top: 3px solid cyan;
     border-bottom: 3px solid cyan;
     padding: 10px 20px;
     margin: 0 auto;
-    letter-spacing: 1px;
+    box-sizing: border-box;
+    text-align: center;
 }
 header p{
     font-size: 0.9rem;
@@ -86,6 +93,7 @@ header p{
     color: #efefef;
     letter-spacing: 1px;
 }
+
 
 /* Animation inspired by:
    MDN Web Docs - CSS Animations
