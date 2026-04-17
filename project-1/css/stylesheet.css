@@ -340,6 +340,7 @@ p{
         /* grid-column: 1/9;
         margin-top: 100px; */
         z-index: 1;
+        
     }
 
     #about ul{
@@ -354,6 +355,7 @@ p{
         z-index: 5;
         position: relative;
         background: rgba(5, 0 ,30 ,0.95);
+
     }
 
     #contribute {
@@ -442,7 +444,8 @@ p{
         background: rgba(10, 5, 25, 0.9);
         border: 1px solid rgba(0, 255, 255, 0.3);
         position: relative;
-        /* padding-left: 80px; */
+        padding-left: 100px;
+        margin-left: 50px;
         transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Smooth 'pop' effect */
     }
 
@@ -490,17 +493,32 @@ p{
         opacity: 0.6;
     }
 
+    /* CITATION: CSS Positioning and Transform Origin
+   Source: MDN Web Docs - position: absolute
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+   Source: MDN Web Docs - transform-origin
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/transform-origin
+   Consulted for: Aligning rotated vertical headers relative to their parent containers.
+    */
     section h2 {
+        width: 300px;
+        height: 40px;
         position: absolute;
-        left: -30px;
-        top: 60px;
-        transform: rotate(-90deg);
+        left: -70px;
+        top: 250px;
+        transform: rotate(-90deg) translateX(-100px);
         transform-origin:left top ;
         font-size: 1.5rem;
         white-space: nowrap;
         border-bottom: 2px solid cyan;
-        padding: 5px;
+        padding-bottom: 5px;
+        margin: 0;
+        color: hotpink;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
+
     h2::before, h2::after{
         content: "";
     }
