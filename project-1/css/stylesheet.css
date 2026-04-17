@@ -164,7 +164,12 @@ h3 {
 /* nav bar */
 nav{
     text-align: center;
-    padding: 15px 10px;
+    padding: 10px 0;
+    border-top: 1px solid cyan;
+    border-bottom: 1px solid cyan;
+    background: rgba(0, 255, 255, 0.05);
+    margin-top: 20px;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
 }
 
 /* removing bullet points */
