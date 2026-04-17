@@ -210,8 +210,9 @@ header h1{
 /* Subtitle */
 header h2 {
   color: cyan;
-  text-shadow: 0 0 8px rgb(4, 200, 200);
+  text-shadow: 0 0 8px rgb(4, 200, 200, 0.5);
   font-size: 25px;
+  background-color: rgba(33, 94, 206, 0.3);
 }
 
 /* header h2::before {
@@ -276,9 +277,12 @@ nav ul{
 
 /* Put nav items in one row */
 nav li{
+    display: flex;
+    align-items: center;
     display: inline-block;
     margin: 12px;
 }
+
 
 /* Nav links */
 nav a{
@@ -334,6 +338,7 @@ ul li::marker {
 /* Alien icon before each link */
 nav a::before {
   content: "👾 ";
+  font-size: 25px;
   display: inline-block;
   animation: floatAlien 2s infinite ease-in-out;
 }
