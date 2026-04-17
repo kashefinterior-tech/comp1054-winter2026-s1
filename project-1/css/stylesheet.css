@@ -112,8 +112,13 @@ header h2 {
 }
 
 h2{
-    color: hotpink;
-    text-shadow: 0 0 8px  rgb(245, 37, 141);
+    font-size: 40px;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid cyan;
+    display: inline-block;
+    /* color: hotpink;
+    text-shadow: 0 0 8px  rgb(245, 37, 141); */
 }
 
 h2::before {
