@@ -755,3 +755,18 @@ section, article, aside {
     text-align: center;
     box-sizing: border-box;
 }
+
+#files h3{
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    color: cyan;
+}
+
+#files .container{
+    /* display: flex; */
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    gap: 15px;
+}
