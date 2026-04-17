@@ -303,9 +303,12 @@ p{
     }
 
     aside {
-        
-        grid-column: 2;
-        margin-top: 0;
+        border: none;
+        border-left: 1px solid cyan;
+        /* grid-column: 2;
+        margin-top: 0; */
+        background: transparent;
+        padding: 0 0 0 20px;
     }
 
     aside.profile {
