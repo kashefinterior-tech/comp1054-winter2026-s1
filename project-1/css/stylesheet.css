@@ -755,8 +755,8 @@ section, article, aside {
 #files{
     display: block;
     background: rgba(0, 255, 255, 0.1);
-    width: 100vm;
-    max-width: 100vm;
+    width: 100vw;
+    max-width: 100vw;
     position: relative;
     /* left: 50%;
     right: 50%;
