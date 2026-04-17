@@ -158,35 +158,6 @@ header::after {
 }
 
 
-/* neon light  */
-header h1{
-    font-size: 50px;
-    font-family: sans-serif;
-    font-weight: 1000;
-    font-style: italic;
-    /* color:  hotpink; */
-    /* color: linear-gradient(hotpink, cyan); */
-    /* 1. Apply the gradient as a background image */
-    background: linear-gradient(to bottom, hotpink, rgb(136, 127, 131));
-    /* 2. clip the background so it only exists imside the letters */
-    -webkit-background-clip: text;
-    background-clip: text;
-    /* 3. make the letters transparent so the background shows through */
-    color: transparent;
-    font-weight: 900;
-    text-shadow: 
-    0 0 14px rgb(245, 37, 141);
-    position: relative;
-    z-index: 10;
-    margin-bottom: 40px;
-}
-
-/* Subtitle */
-header h2 {
-  color: cyan;
-  text-shadow: 0 0 8px rgb(4, 200, 200);
-}
-
 /* CITATION: CSS Animation Fill Mode
    Source: MDN Web Docs - animation-fill-mode
    URL: https://developer.mozilla.org/en-US/docs/Web/CSS/animation-fill-mode
@@ -204,17 +175,44 @@ header h2 {
         opacity: 1;
         transform: translateY(0);    /* slide into its real position */
         filter: blur(0);             /* clear up */
-        text-shadow: 0 0 20px rgb(0, 255, 255, 0.7);
+        text-shadow: 0 0 20px rgb(0, 255, 255, 0.2);
     }
 }
 
-header h1 {
-    /* animation: name / duration / timing-function / delay / fill-mode */
+
+/* neon light  */
+header h1{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    /* color:  hotpink; */
+    /* color: linear-gradient(hotpink, cyan); */
+    /*  apply the gradient as a background image */
+    background: linear-gradient(to top, rgb(231, 210, 232), rgb(216, 1, 108));
+    /* clip the background so it only exists imside the letters */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* make the letters transparent so the background shows through */
+    color: transparent;
+    /* text-shadow: 
+    0 0 14px rgb(245, 37, 141); */
+    position: relative;
+    z-index: 10;
+    margin-bottom: 40px;
+     /* animation: name / duration / timing-function / delay / fill-mode */
     animation: systemBoot 1.5s ease-out 0.5s forwards;
     
     /* starts invisible so it can fade in */
     opacity: 0;
 }
+
+/* Subtitle */
+header h2 {
+  color: cyan;
+  text-shadow: 0 0 8px rgb(4, 200, 200);
+}
+
 
 
 h2{
