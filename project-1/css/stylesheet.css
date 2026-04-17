@@ -591,3 +591,15 @@ section, article, aside {
     flex-direction: column;
     gap: 15px;
 }
+
+/* CITATION: SVG Styling & CSS Filters
+   Source: MDN Web Docs - fill
+   URL: https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/fill
+   Source: MDN Web Docs - filter
+   URL: https://developer.mozilla.org/en-US/docs/Web/CSS/filter
+   Consulted for: Changing SVG icon color and applying a drop-shadow glow effect.
+*/
+.link-github svg {
+    fill: hotpink;
+    filter: drop-shadow(0 0 5px hotpink);
+}
